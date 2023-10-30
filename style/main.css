@@ -3,12 +3,19 @@
 @import url("global/fonts.css");
 @import url("global/animations.css");
 
-/* Components */
+/* Components - Main */
 @import url("components/mainArticle.css");
 @import url("components/news.css");
-@import url("components/headTitle.css");
+@import url("components/events.css");
+@import url("components/titles.css");
+
+/* Components - Drinks */
+@import url("components/drinks.css");
 
 /* Layout */
 @import url("layout/header.css");
-@import url("layout/footer.css");
 @import url("layout/responsiveness.css");
+@import url("layout/footer.css");
+
+
+/* Reset   */

@@ -20,7 +20,7 @@
 }
 
 #siteAdsWrapper::-webkit-scrollbar-thumb {
-    background-color: transparent;
+    background-color: var(--main-accent);
 }
 
 #sectionHeader {
@@ -57,6 +57,7 @@
     padding: 0;
     margin: 0;
     color: var(--accent-2);
+    text-shadow: 0 0 0.35rem var(--accent-2);
 }
 
 .newsDate {
@@ -68,6 +69,8 @@
     border-bottom: 2px solid var(--accent-1);
     width: fit-content;
     margin: auto;
+    text-shadow: 0 0 0.35rem var(--accent-1);
+    font-weight: normal;
 }
 
 .newsText {
@@ -84,3 +87,23 @@
     border: 3px solid var(--accent-1);
     box-shadow: 0 0 15px 0 var(--accent-1);
 }
+
+audio {
+    filter: drop-shadow(0 0 0.35rem var(--accent-2));
+    border: 3px solid var(--accent-2);
+    border-radius: 100px;
+    margin-bottom: 0.5em;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: var(--main-accent);
+  }
+  
+  audio::-webkit-media-controls-play-button {
+    background-color: #eceb9c;
+    border-radius: 50%;
+  }
+  
+  audio::-webkit-media-controls-play-button:hover {
+    background-color: #8d8c5a;
+  }

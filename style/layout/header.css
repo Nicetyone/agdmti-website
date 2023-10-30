@@ -1,5 +1,5 @@
 #headerWrapper {
-  grid-column: 1 / 7;
+  grid-column: 1 / -1;
   grid-row: 1;
   background: linear-gradient(0deg, var(--background-1) 5%,#080c1480 15%,  #080c1480 20%, #ea008180 100%), url(/assets/img/header-gif.gif); /*src: https://wallpaperaccess.com/full/8881699.gif*/
   background-position: center;
@@ -11,7 +11,7 @@
   text-align: center;
   min-width: fit-content;
 }
-  
+
 #headerWrapper a {
   text-decoration: none;
 }
@@ -23,17 +23,23 @@
   text-align: center;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   filter: drop-shadow(0 0 0.25rem black);
-  color: var(--accent-1);
+  color: var(--background-1);
   transform: scale(2.5);
-  padding: 1em;
   width: fit-content;
   margin: auto;
+  margin-bottom: 1em;
+  margin-top: 1em;
+
+  font-weight: bold;
+
+  text-shadow: -2px -2px 0 #55a4ff, 2px -2px 0 #ffe555, 2px 2px 0 #ff55aa;
+  letter-spacing: 4px;
 }
+
 
 
 #navbar {
   font-size: 1em;
-  
   position: sticky;
   list-style-type: none;
   margin: 0;

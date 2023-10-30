@@ -1,0 +1,17 @@
+#drinkMenu{
+    grid-column: 1 / -1;
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: linear-gradient(to bottom, var(--background-1), var(--background-2));
+}
+
+.drinkItem img {
+    aspect-ratio: 1 / 1; /* Set the aspect ratio */
+    width: 300px; /* Set the desired width */
+    object-fit: cover; /* Adjust as needed (cover, contain, etc.) */
+    border-radius: 10px;
+}
