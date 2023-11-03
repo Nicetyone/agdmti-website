@@ -23,6 +23,10 @@
     background-color: var(--main-accent);
 }
 
+#siteAdsWrapper a {
+    text-decoration: none;
+}
+
 #sectionHeader {
     background-color: var(--background-2);
     width: 90%;
