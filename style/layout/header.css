@@ -1,7 +1,7 @@
 #headerWrapper {
   grid-column: 1 / -1;
   grid-row: 1;
-  background: linear-gradient(0deg, var(--background-1) 5%,#080c1480 15%,  #080c1480 20%, #ea008180 100%), url(/assets/img/header-gif.gif); /*src: https://wallpaperaccess.com/full/8881699.gif*/
+  background: linear-gradient(0deg, var(--background-1) 5%,#080c1480 15%,  #080c1480 20%, #ea008180 100%), url(./assets/img/header-gif.gif); /*src: https://wallpaperaccess.com/full/8881699.gif*/
   background-position: center;
   background-size: cover;
   padding: 1em;
