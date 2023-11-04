@@ -33,6 +33,18 @@
   .gallery img {
     width: 90%; /* Set the desired width */
   }
+
+  #rules {
+    grid-template-columns: 1fr;
+  }
+
+  #robots-singleGrid {
+    display: block;
+  }
+
+  #robotsHeader {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 1200px) and (min-width: 780px) {
@@ -143,17 +155,5 @@
   .infoBlock {
     grid-column: 1 / 2;
     grid-row: 6;
-  }
-
-  #rules {
-    grid-template-columns: 1fr;
-  }
-  
-  #robots-singleGrid {
-    display: block;
-  }
-
-  #robotsHeader {
-    display: none;
   }
 }

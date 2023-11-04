@@ -1,3 +1,5 @@
+
+
 #rules {
     grid-column: 1 / -1;
     display: grid;
@@ -6,8 +8,22 @@
     grid-gap: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    background: linear-gradient(to bottom, var(--background-1), var(--background-2));
     max-width: 100%;
+    background: linear-gradient(to bottom, var(--background-1), var(--background-2));
+    
+}
+
+#blacklist {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-row: 3;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 100%;
+    background: var(--background-2);
+    margin-bottom: 2em;
 }
 
 .rule {
@@ -78,15 +94,17 @@
     border-radius: 10px;
 }
 
-#rules table {
+#blacklist table {
     margin: auto;
     margin-top: 1rem;
     background-color: rgba(0, 0, 0, 0.178);
     border-radius: 10px;
     border: 3px solid var(--accent-1);
     box-shadow: 0 0 15px 0 var(--accent-1);
+    width: 30%;
+
 }
 
-#rules table td {
+#blacklist table td {
     padding: 5px;
 }
